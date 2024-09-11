@@ -1,0 +1,173 @@
+body {
+    margin: 25px;
+    font-size: 25px;
+    background-color: #a9b1e0;
+    color: rgb(0, 0, 0);
+    grid-template-rows: auto 1fr auto;
+}
+
+header {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #08002b;
+    color: #ffffff;
+    padding: 8px;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    margin: 5;
+    padding: 5;
+}
+
+nav li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+nav a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.hero {
+    background-image: url("hero.jpg");
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding: 100px 0;
+    color: #fff;
+}
+
+.hero h2 {
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 20px;
+    line-height: 1.5;
+}
+
+.hero .boton {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+.seccion-1, .seccion-2 {
+    padding: 40px;
+    text-align: center;
+}
+
+.seccion-1 h2, .seccion-2 h2 {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.seccion-2 ul {
+    margin: 0;
+    padding: 0;
+}
+
+.seccion-2 li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 1px;
+    text-align: center;
+    font-size: 14px;
+    height: 50px;
+}
+
+.contenedor-pestanas {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+}
+
+.menu-pestanas {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.menu-pestanas li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.menu-pestanas a {
+    text-decoration: none;
+    color: #333;
+    padding: 8px 12px;
+    border: 1px solid #ccc;
+}
+
+.menu-pestanas a:hover {
+    background-color: #f0f0f0;
+}
+
+.contenido-pestanas {
+    padding: 20px;
+}
+
+.tab {
+    display: none;
+}
+
+.tab.active {
+    display: block;
+} 
+
+ li {
+    border: 2px solid #c7c6ee;
+    box-shadow: 4px 4px 20px rgba(163, 179, 252, 0.5);
+ }
+
+
+ li {
+    font-size: 30px;
+    transition: font-size 0.5s ease;
+  }
+  
+  li:hover {
+    font-size: 40px;
+  }
+
+  li {
+    margin-top: 20px;
+  }
+  
+  .back-button {
+    display: inline-block;
+    text-decoration: none;
+}
+
+.back-button img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    border: none;
+}
+
+.back-button:hover img {
+    opacity: 0.8;
+}
+
+
+.contenedor {
+    display: flex;
+}
+
+.imagen {
+    width: 300px;
+    height: 250px;
+}
